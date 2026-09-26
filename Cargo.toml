@@ -1,0 +1,11 @@
+[package]
+name = "pdftext"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Educational PDF text extractor: object scan, FlateDecode, content-stream text operators — zero dependencies"
+license = "MIT"
+
+[profile.release]
+lto = true
+codegen-units = 1
